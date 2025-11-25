@@ -28,3 +28,49 @@ python main.py
 
 
 * Play: The game window will open. Use the Up, Down, Left, and Right arrow keys to control the snake. Try to eat as much food as you can without crashing!
+
+## Python Two-Player Pong Game
+
+* This is a classic two-player Pong implementation built using Python's standard turtle library for graphics and user input.
+
+### Features
+
+* **Two-Player Local Multiplayer:** Controls for Player A (W/S) and Player B (Up/Down Arrow Keys).
+
+* **Real-time Score Tracking:** A scoreboard at the top tracks points.
+
+* **Dynamic Difficulty:** The ball speeds up slightly every time it hits a paddle.
+
+* **Visual Partition:** A dashed line is drawn down the center to divide the playing field.
+
+### Project Structure
+
+Although provided as a single runnable file (game.py), the design follows an Object-Oriented approach, conceptually separating components into different modules:
+
+* **scoreboard.py: ** Contains the Scoreboard class for managing and displaying scores.
+
+* **paddle.py:** Contains the Paddle class for the player-controlled bats.
+
+* **ball.py:** Contains the Ball class for movement and physics logic.
+
+* **game.py:** The main runner file that sets up the screen, imports the classes, handles keyboard input, and runs the central game loop (collision detection and scoring).
+
+
+**Player 1 :**
+Up
+Down
+
+**Player 2** 
+W
+S
+
+#### **How to Run**
+
+Ensure you have Python installed.
+
+Run the main file from your terminal:
+
+python game.py
+
+
+The game will open in a new window.
