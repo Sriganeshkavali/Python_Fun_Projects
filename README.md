@@ -74,3 +74,29 @@ python game.py
 
 
 The game will open in a new window.
+
+## Turtle Crossing Game
+
+* A classic arcade-style game built with Python's Turtle module. Help the turtle cross the busy road without getting hit by cars!
+
+### How to Play
+
+Run **main.py** to start the game.
+
+* Use Up Arrow to move forward.
+
+* Use Down Arrow to move backward.
+
+* Reach the top of the screen to level up.
+
+**Avoid the cars—they get faster every level!**
+
+#### File Structure
+
+**main.py:** The game loop and setup.
+
+**player.py:** Turtle movement logic.
+
+**car_manager.py:** Car generation and movement.
+
+**scoreboard.py: ** Level tracking and game over display.
