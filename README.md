@@ -100,3 +100,30 @@ Run **main.py** to start the game.
 **car_manager.py:** Car generation and movement.
 
 **scoreboard.py: ** Level tracking and game over display.
+
+## Turtle Pac-Man
+
+* A simplified arcade-style Pac-Man game built using Python's standard turtle graphics module. Navigate the maze, eat all the dots, and avoid the ghosts!
+
+### How to Play
+
+* Start the Game: Run the run_pacman.py file.
+
+* Controls: Use the Arrow Keys to move Pac-Man.
+
+* Up Arrow: Move Up
+
+* Down Arrow: Move Down
+
+* Left Arrow: Move Left
+
+* Right Arrow: Move Right
+
+#### Objective: Eat all the white dots to win. If a ghost touches you, it's Game Over.
+
+### Requirements
+
+Python 3.x
+
+Turtle (Standard library included with Python)
+
